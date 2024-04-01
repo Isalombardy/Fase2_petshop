@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Título da Página</title>
+    <link rel="stylesheet" href="style.css">
+    <header>
+        <div id="cabecalho" >
+            <img id="logo" src="C:\Users\VivoBook\Pictures\Screenshots\logopetshop.png" alt="">
+            <h1 id="petshop" >PETSHOP</h1>
+            <p><a href="#produtos">PRODUTOS</a></p>
+            <p><a href="#servicosDisponiveis">SERVIÇOS DISPONÍVEIS</a></p>
+            <p><a href="#cadastrePet">CADASTRE SEU PET</a></p>
+            <p><a href="#servicoporagendamento">SERVIÇO POR AGENDAMENTO</a></p>
+
+
+        </div>
+    </header>
+</head>
+<body>
+    <div id="formularioDeCadastro" >
+   
+        <h1 id="cadastre-se" >CADASTRE-SE</h1>
+        <!-- Caixa de seleção -->
+        <input type="checkbox" id="termos" name="termos">
+        <!-- Rótulo para a caixa de seleção -->
+        <label for="termos">Eu li e aceito os termos e condições e a política de privacidade</label>
+
+        <form action="#" method="post">
+            <!-- Campo para o nome -->
+            <label id="nome" for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <br><br>
+            
+            <!-- Campo para a data de nascimento -->
+            <label id="data" for="dataNascimento">Data de Nascimento:</label>
+            <input type="date" id="dataNascimento" name="dataNascimento" required>
+            <br><br>
+            
+            <!-- Campo para o número de telefone -->
+            <label id="telefone" for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone" pattern="[0-9]{2}-[0-9]{5}-[0-9]{4}" required>
+            <br><br>
+            
+            <!-- Botão de envio -->
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+
+    <hr id="linha1" >
+
+    <h1 id="produtos" >PRODUTOS</h1>
+
+    <!--imagens das raçoes e descriçoes-->
+    <div id="informacoesProdutos" >
+        
+    <img id="imagemRacao1" src="C:\Users\VivoBook\Pictures\Screenshots\racao1.png" alt="">
+    <h3 id="racaoSeca" ><p id="racaoSecaTitulo" >RAÇÃO SECA</p>Além de oferecer todos os nutrientes, vitaminas e minerais necessários, a ração seca é fundamental para a saúde oral, pois a mastigação dos grãos reduz o acúmulo de tártaro e garante a manutenção dos dentes e gengivas. <p id="precoRacao1" >R$49,99</p> </h3>
+    <img id="imagemRacao2" src="C:\Users\VivoBook\Pictures\Screenshots\racao2.png" alt="">
+    <h3 id="racaoUmida" ><p id="racaoUmidaTitulo" >RAÇÃO ÚMIDA</p>Com no mínimo 70% de água na sua composição, além de alimentar o animal, a ração úmida colabora imensamente com a hidratação do seu pet, o que favorece a saúde do trato urinário.  <p id="precoRacao2" >R$49,99</p> </h3>
+    </div>
+
+    <h1 id="atendimentoRacas" >ATENDIMENTO PARA TODAS AS RAÇAS!</h1>
+
+    <div class="slideshow-container">
+        <div class="slide fade">
+            <img src="C:\Users\VivoBook\Pictures\Screenshots\cachorro1.png" alt="Foto 1" style="width:100%">
+        </div>
+        <div class="slide fade">
+            <img src="C:\Users\VivoBook\Pictures\Screenshots\cachorro2.png" alt="Foto 2" style="width:100%">
+        </div>
+        <div class="slide fade">
+            <img src="C:\Users\VivoBook\Pictures\Screenshots\cachorro3.png" alt="Foto 3" style="width:100%">
+        </div>
+    </div>
+    <br>
+    <div style="text-align:center">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+
+    <h1 id="servicosDisponiveis" >SERVIÇOS DISPONÍVEIS</h1>
+        <div id="pequenoPorteDiv" >
+                    
+            <h2 id="pequenoPorte" >Banho e Tosa para Animais de Pequeno Porte (até 10kg):</h2>
+
+            <h3 id="pequenoPorteDescricao" > <p id="banho1" >banho:</p> Inclui uso de shampoo adequado, enxágue completo, secagem e limpeza de orelhas. <p id="precoBanhoPequeno" >R$50,00</p> <p id="banhoTosa1" >Banho e Tosa:</p> Pode variar de uma tosa higiênica a uma tosa completa, adaptada às necessidades e preferências do dono. <p id="precoTosaPequeno" >R$90,00</p> </h3>
+
+        </div>
+
+        <div id="grandePorteDiv" >
+                    
+            <h2 id="grandePorte" >Banho e Tosa para Animais de Grande Porte (acima de 10kg):</h2>
+
+            <h3 id="grandePorteDescricao" > <p id="banho2" >banho:</p> Inclui uso de shampoo adequado, enxágue completo, secagem e limpeza de orelhas. <p id="precoBanhoGrande" >R$80,00</p>  <p id="banhoTosa2" >Banho e Tosa:</p> Pode variar de uma tosa higiênica a uma tosa completa, adaptada às necessidades e preferências do dono. <p id="precoTosaGrande" >R$120,00</p> </h3>
+
+        </div>
+
+        <div id="formularioDeCadastroPetDiv" >
+                
+            <h1 id="cadastrePet" >CADASTRE SEU PET!</h1>
+            <form action="#" method="post">
+                <!-- Campo para o nome -->
+                <label id="nomePet" for="nomePet">Nome do PET:</label>
+                <input type="text" id="nomePet" name="nomePet" required>
+                <br><br>
+                
+                <!-- Campo para a data de nascimento -->
+                <label id="tipoPet" for="tipoPet">Tipo (Cão, Gato, etc...):</label>
+                <input type="text" id="tipoPet" name="tipoPet" required>
+                <br><br>
+                
+                <!-- Campo para o número de telefone -->
+                <label id="racaPet" for="racaPet">Raça do PET:</label>
+                <input type="text" id="racaPet" name="racaPet" required>
+                <br><br>
+                
+                <label id="temperamentoPet" for="temperamentopetPet">Temperamento:</label>
+                <input type="text" id="temperamentoPet" name="temperamentoPet" required>
+                <br><br>
+                
+                <!-- Botão de envio -->
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+
+        <hr id="linha2" >
+    
+        <div id="servicoporagendamentoDiv" >
+
+            <h1 id="servicoporagendamento" >SERVIÇO POR AGENDAMENTO</h1>
+            <form action="#" method="post">
+                <label id="nomeNomeAnimal" for="nomeAnimal">Nome do Animal:</label>
+                <input type="text" id="nomeDoAnimal" name="nomeAnimal" required>
+        
+                <label id="nomeServico" for="servico">Serviço:</label>
+                <select id="servico" name="servico" required>
+                    <option value="">Selecione...</option>
+                    <option value="Banho e Tosa (pequeno porte)">Banho e Tosa (pequeno porte)</option>
+                    <option value="Banho e Tosa (grande porte)">Banho e Tosa (grande porte)</option>
+                    <option value="Banho (pequeno porte)">Banho (pequeno porte)</option>
+                    <option value="Banho (grande porte)">Banho (grande porte)</option>
+                   
+                </select>
+        
+                <label id="nomeData" for="dataAgendamento">Data do Agendamento:</label>
+                <input type="date" id="dataAgendamento" name="dataAgendamento" required>
+        
+                <label id="nomeHora" for="horaAgendamento">Hora do Agendamento:</label>
+                <input type="time" id="horaAgendamento" name="horaAgendamento" required>
+        
+                <input type="checkbox" id="teleBusca" name="teleBusca">
+                <label for="teleBusca">Tele-busca</label>
+        
+                <label id="nomeEndereco" for="endereco">Endereço:</label>
+                <input type="text" id="endereco" name="endereco" required>
+        
+                <input type="submit" value="Agendar">
+            </form>
+        </div>
+
+        <footer id="footer" >
+            <div id="direitos">Todos os direitos autorais deste website e de seu conteúdo são reservados. Este website e seu conteúdo são protegidos pelas leis de direitos autorais aplicáveis. É proibida qualquer reprodução, distribuição, modificação ou uso não autorizado do conteúdo deste website, no todo ou em parte, sem o consentimento prévio por escrito dos proprietários.</div>
+            <div id="contatoFooter">Contato: contato@petshop.com</div>
+        </footer>
+        
+    <script src="script.js"></script>
+</body>
+</html>
+

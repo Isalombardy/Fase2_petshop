@@ -1,0 +1,287 @@
+body {
+    background-color: rgb(201, 217, 212);
+    margin: 0; 
+    padding: 0;
+}
+header {
+    background-color: #dce7de;
+    padding: 15px; /* Adiciona espaçamento interno ao redor do conteúdo do cabeçalho */
+    border: none;
+}
+
+#petshop {
+    margin: 0; 
+    color: rgb(91, 109, 105); /* Cor do texto */
+    margin-left: 20px;
+    margin-right: 400px;
+}
+
+#logo {
+   width: 50px;
+}
+
+a{
+    font-size: 18px;
+    color: rgb(91, 109, 105); /* Cor do texto */
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(250, 252, 251); /* Altera a cor do texto para vermelho quando o mouse passa por cima do link */
+}
+
+#cabecalho {
+    display: flex; /* Ativa o modelo de layout flexível */
+    align-items: center; /* Alinha os itens verticalmente */
+}
+
+#cadastre-se {
+    color: rgb(91, 109, 105);
+    margin-left: 640px;
+    margin-bottom: 40px;
+    margin-top: 45px;
+}
+
+#termos {
+    margin-left: 380px;
+    margin-bottom: 30px;
+}
+/* Estilo para os campos de entrada */
+#nome,
+#data,
+#telefone {
+    display: block; /* Exibe cada etiqueta em uma nova linha */
+    color:  rgb(91, 109, 105) ; /* Cor do texto das etiquetas */
+    margin-bottom: 5px; /* Espaçamento inferior entre as etiquetas */
+    margin-left: 380px;
+    font-size: 25px;
+}
+input[type="text"],
+input[type="date"],
+input[type="tel"] {
+    width: calc(50% - 20px); /* Largura dos campos de entrada */
+    padding: 20px; /* Espaçamento interno */
+    margin-bottom: 20px; /* Espaçamento inferior entre os campos */
+    margin-left: 380px;
+    border-radius: 20px; /* Borda arredondada */
+    background-color:  rgb(224, 243, 239); /* Cor de fundo dos campos de entrada */
+    box-sizing: border-box; /* Inclui a borda e o preenchimento na largura total */
+}
+
+/* Estilo para o botão de envio */
+input[type="submit"] {
+    width: calc(25% - 20px); /* Largura do botão */
+    padding: 12px; /* Espaçamento interno */
+    margin-top: 20px; /* Espaçamento superior entre o botão e os campos */
+    margin-left: 580px;
+    border: none; /* Remove a borda */
+    border-radius: 8px; /* Borda arredondada */
+    background-color: rgb(91, 109, 105); /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    cursor: pointer; /* Altera o cursor ao passar o mouse sobre o botão */
+}
+
+#formularioDeCadastro {
+    margin-left: auto; /* Centralizando horizontalmente */
+}
+
+#produtos {
+    color: rgb(91, 109, 105);
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 45px;
+}
+
+#linha1 {
+    margin-top: 40px;
+}
+
+#informacoesProdutos {
+    display: flex; /* Ativa o modelo de layout flexível */
+    align-items: center; /* Alinha os itens verticalmente */
+}
+
+#imagemRacao1,
+#imagemRacao2 {
+    width: 200px;
+    border-radius: 20px;
+}
+
+#imagemRacao1 {
+    margin-left: 30px;
+}
+
+#racaoSeca,
+#racaoUmida {
+    margin-left: 40px;
+}
+
+#racaoUmida {
+    margin-right: 30px;
+}
+
+#atendimentoRacas {
+    color: rgb(91, 109, 105);
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 45px;
+}
+
+.fade {
+    display: none;
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 20%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active {
+    background-color: #717171;
+}
+
+#servicosDisponiveis {
+    color: rgb(91, 109, 105);
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 45px;
+}
+
+
+#pequenoPorteDiv, 
+#grandePorteDiv {
+    display: inline-block; /* Coloca as divs lado a lado */
+    width: 45%; /* Define a largura de cada div */
+    margin: 10px; /* Adiciona uma margem entre as divs */
+    padding: 20px; /* Adiciona um preenchimento interno */
+    border: 1px solid #ccc; /* Adiciona uma borda para visualização */
+    box-sizing: border-box; /* Inclui a borda e o preenchimento na largura total */
+}
+
+#pequenoPorteDiv {
+    margin-left: 50px;
+}
+
+#nomePet,
+#tipoPet,
+#racaPet,
+#temperamentoPet {
+    display: block; 
+    color:  rgb(91, 109, 105) ; /* Cor do texto das etiquetas */
+    margin-bottom: 5px; /* Espaçamento inferior entre as etiquetas */
+    margin-left: 380px;
+    font-size: 25px;
+}
+input[type="text"] {
+    width: calc(50% - 20px); /* Largura dos campos de entrada */
+    padding: 20px; /* Espaçamento interno */
+    margin-bottom: 20px; /* Espaçamento inferior entre os campos */
+    margin-left: 380px;
+    border-radius: 20px; /* Borda arredondada */
+    background-color:  rgb(224, 243, 239); /* Cor de fundo dos campos de entrada */
+    box-sizing: border-box; /* Inclui a borda e o preenchimento na largura total */
+}
+
+/* Estilo para o botão de envio */
+input[type="submit"] {
+    width: calc(25% - 20px); /* Largura do botão */
+    padding: 12px; /* Espaçamento interno */
+    margin-top: 20px; /* Espaçamento superior entre o botão e os campos */
+    text-align: center;
+    border: none; /* Remove a borda */
+    border-radius: 8px; /* Borda arredondada */
+    background-color: rgb(91, 109, 105); /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    cursor: pointer; /* Altera o cursor ao passar o mouse sobre o botão */
+}
+
+
+#formularioDeCadastroPet {
+    margin-left: auto; /* Centralizando horizontalmente */
+}
+
+#cadastrePet {
+    color: rgb(91, 109, 105);
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 45px;
+}
+
+
+#nomeDoAnimal,
+#servico,
+#dataAgendamento,
+#horaAgendamento,
+#endereco {
+    display: block; /* Exibe cada etiqueta em uma nova linha */
+    color:  rgb(91, 109, 105) ; /* Cor do texto das etiquetas */
+    margin-bottom: 5px; /* Espaçamento inferior entre as etiquetas */
+    margin-left: 380px;
+    font-size: 25px;
+}
+
+#teleBusca {
+    margin-left: 380px;
+    margin-bottom: 30px;
+}
+
+#servicoporagendamento {
+    color: rgb(91, 109, 105);
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 45px;
+}
+
+input[type="time"] {
+    width: calc(50% - 20px); /* Largura dos campos de entrada */
+    padding: 20px; /* Espaçamento interno */
+    margin-bottom: 20px; /* Espaçamento inferior entre os campos */
+    margin-left: 380px;
+    border-radius: 20px; /* Borda arredondada */
+    background-color:  rgb(224, 243, 239); /* Cor de fundo dos campos de entrada */
+    box-sizing: border-box; /* Inclui a borda e o preenchimento na largura total */
+}
+
+input[type="date"] {
+    width: calc(50% - 20px); /* Largura dos campos de entrada */
+    padding: 20px; /* Espaçamento interno */
+    margin-bottom: 20px; /* Espaçamento inferior entre os campos */
+    margin-left: 380px;
+    border-radius: 20px; /* Borda arredondada */
+    background-color:  rgb(224, 243, 239); /* Cor de fundo dos campos de entrada */
+    box-sizing: border-box; /* Inclui a borda e o preenchimento na largura total */
+}
+
+#nomeNomeAnimal,
+#nomeServico,
+#nomeEndereco,
+#nomeData,
+#nomeHora {
+    display: block; /* Exibe cada etiqueta em uma nova linha */
+    color:  rgb(91, 109, 105) ; /* Cor do texto das etiquetas */
+    margin-bottom: 5px; /* Espaçamento inferior entre as etiquetas */
+    margin-left: 380px;
+    font-size: 25px;
+}
+
+#linha2 {
+    margin-top: 30px;
+}
+
+#footer {
+    background-color: #ccc;
+    margin-top: 40px;
+}
